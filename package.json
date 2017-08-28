@@ -18,7 +18,10 @@
   "author": {
     "name": "Sviatoslav Melnuk",
     "email": "m0sviatoslav@gmail.com"
-  },,
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/m0sviatoslav/apidoc-plugin-sample/issues"
