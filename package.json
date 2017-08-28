@@ -1,0 +1,30 @@
+{
+  "name": "apidoc-plugin-sample",
+  "version": "0.0.1",
+  "description": "apidoc plugin <sample param>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m0sviatoslav/apidoc-plugin-sample.git"
+  },
+  "keywords": [
+    "apidocjs",
+    "apidoc-plugin",
+    "apidoc-sample-param"
+  ],
+  "author": {
+    "name": "Sviatoslav Melnuk",
+    "email": "m0sviatoslav@gmail.com"
+  },,
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m0sviatoslav/apidoc-plugin-sample/issues"
+  },
+  "homepage": "https://github.com/m0sviatoslav/apidoc-plugin-sample#readme",
+  "dependencies": {
+    "apidoc-core": "~0.8.1"
+  }
+}
