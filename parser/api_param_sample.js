@@ -97,7 +97,7 @@ function parse(content, source, defaultGroup) {
         }
     });
 
-    var allowedValues = matches[4];
+    var allowedValues = matches[6];
     if (allowedValues) {
         var regExp;
         if (allowedValues.charAt(0) === '"')
@@ -121,8 +121,8 @@ function parse(content, source, defaultGroup) {
 
     return {
         group        : group,
-        inputType    : matches[2],
-        InputValue   : matches[3],
+        inputType    : matches[2] || 'text',
+        inputValue   : matches[3],
         type         : matches[4],
         size         : matches[5],
         allowedValues: allowedValues,
